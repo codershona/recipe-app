@@ -12,14 +12,16 @@ const RandomMeal = () => {
   const [meal, setMeal] = useState(undefined);
 
 
-  useEffect(async () => {
+  useEffect(() => {
 
-  	const res = await fetch(API_URL);
+  	 fetch(API_URL)
+  	   .then(res => res.json())
+  	   .then(meal => {
+  	   	setMeal(meal);
 
-  	const randomMeal = await res.json();
+  	   })
 
-
-  	setMeal(randomMeal);
+  	
 
   }, [])
 
