@@ -19,11 +19,11 @@ const RandomMeal = () => {
   	   .then(meal => {
   	   	setMeal(meal);
 
-  	   })
+  	   });
 
   	
 
-  }, [])
+  }, []);
 
 
 
