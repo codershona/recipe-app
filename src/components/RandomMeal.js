@@ -16,8 +16,8 @@ const RandomMeal = () => {
 
   	 fetch(API_URL)
   	   .then(res => res.json())
-  	   .then(meal => {
-  	   	setMeal(meal);
+  	   .then(res => {
+  	   	setMeal(res.meals[0]);
 
   	   });
 
@@ -36,6 +36,8 @@ const RandomMeal = () => {
 	return (
 
 		<div>
+
+		<h1>We should watch this</h1>
 
 		<h1>
 
