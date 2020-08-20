@@ -9,9 +9,13 @@ function App() {
   return (
     <div className="App">
 
-    Hello React 
+   <h1> Welcome to check our latest Recipes ! 🥰 🧚 </h1>
+    <section className="container">
 
     <RandomMeal />
+
+    </section>
+
    
 
     </div>

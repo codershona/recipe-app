@@ -58,23 +58,23 @@ const RandomMeal = () => {
 
 	return (
 
-		<div>
+		<div className="meal">
 
 		<h1>Recipe Meals</h1>
 
-		<div>
+		<div className="meal-img">
 
       <img src={strMealThumb} alt={strMeal} />
 
 
     </div>
 
-    <div>
+    <div className="meal-details">
 
-      <h2>{strMeal}</h2>
-      <p> {strInstructions} </p>
+      <h2 className="meal-title">{strMeal}</h2>
+      <p className="meal-instruction"> {strInstructions} </p>
 
-      <ul>
+      <ul className="meal-info">
 
        <li>
 
