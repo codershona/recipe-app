@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;400;700&display=swap');
 
 
 
@@ -22,6 +22,8 @@ font-family: 'Noto Sans KR', sans-serif;
 	width: 800px;
 	max-width: 100%;
 	margin: 0 auto;
+	padding: 20px;
+
 }
 
 .headline {
@@ -46,6 +48,9 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
     display: flex;
     overflow: hidden;
 
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+
+
 }
 
 .meal-img {
@@ -66,11 +71,61 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
 
 .meal-details {
 
-	padding: 20px;
+	padding: 30px;
 
 	flex: 2;
 
 }
 
+
+.meal-title {
+
+	margin: 0 0 20px;
+
+	color: #414345;
+
+}
+
+.meal-instruction {
+
+	font-size: 16px;
+	color: #302b63;
+	font-weight: bold;
+
+
+
+}
+
+
+.meal-info {
+
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+
+
+}
+
+
+.meal-info li {
+
+	font-size: 14px;
+
+	color: #555;
+
+	font-weight: 200;
+
+	margin-right: 50px;
+
+}
+
+.meal-info li strong {
+
+	display: block;
+	color: #302b63;
+	font-size: 20px;
+	font-weight: 600;
+
+}
 
 

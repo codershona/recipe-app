@@ -73,10 +73,10 @@ const RandomMeal = () => {
 
     <div className="meal-details">
 
-      <h1>Recipe Meals</h1>
+      <h3>Latest Recipe Blogs </h3>
 
-      <h2 className="meal-title">{strMeal}</h2>
-      <p className="meal-instruction"> {strInstructions.substring(0, 100) + "..."} </p>
+      <h1 className="meal-title">{strMeal}</h1>
+      <p className="meal-instruction"> {strInstructions.substring(0, 200) + "..."} </p>
 
       <ul className="meal-info">
 
