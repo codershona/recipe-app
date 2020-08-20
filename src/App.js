@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
 
-   <h1> Welcome to check our latest Recipes ! 🥰 🧚 </h1>
+   <h1 className="headline"> Welcome to check our latest Recipes !<span> 🥰 🧚 </span> </h1>
     <section className="container">
 
     <RandomMeal />

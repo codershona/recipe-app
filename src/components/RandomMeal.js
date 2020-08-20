@@ -64,7 +64,7 @@ const RandomMeal = () => {
 
 		<div className="meal-img">
 
-    <h1>Recipe Meals</h1>
+  
 
       <img src={strMealThumb} alt={strMeal} />
 
@@ -73,8 +73,10 @@ const RandomMeal = () => {
 
     <div className="meal-details">
 
+      <h1>Recipe Meals</h1>
+
       <h2 className="meal-title">{strMeal}</h2>
-      <p className="meal-instruction"> {strInstructions.substring(0, 100)} </p>
+      <p className="meal-instruction"> {strInstructions.substring(0, 100) + "..."} </p>
 
       <ul className="meal-info">
 
