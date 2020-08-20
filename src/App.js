@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="App">
 
-   <h1 className="headline"> Welcome to check our latest Recipes !<span> 🥰 🧚 </span> </h1>
+   <h1 className="headline"> Welcome to check our latest Recipes !<span> 🥰 🧚 😋 </span> </h1>
     <section className="container">
 
-    <h2 className="headline"> Featured Meal</h2>
+    <h2 className="headline"> Featured Meal  <span>  🌭 🍔 🍟 🍕 🥪 🥙 🧆 🌮 🌯 🥗 🥘 🍷 </span> </h2>
 
     <RandomMeal />
 

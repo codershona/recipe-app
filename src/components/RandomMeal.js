@@ -96,6 +96,11 @@ const RandomMeal = () => {
 
        </ul>
 
+       <button className="btn">
+        View Recipe here  <span> 👉 </span>
+
+       </button>
+
     </div>
 
 		</div>
