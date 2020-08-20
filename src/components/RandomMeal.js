@@ -97,7 +97,7 @@ const RandomMeal = () => {
        </ul>
 
        <button className="btn">
-        View Recipe here  <span> 👉 </span>
+        View Recipe here  <span> 👉 </span> <i className="fas fa-arrow-alt-circle-right"></i>
 
        </button>
 

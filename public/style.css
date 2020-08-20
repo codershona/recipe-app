@@ -144,7 +144,7 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
 
 	color: #fff;
 
-	padding: 15px 25px;
+	padding: 19px 25px;
 
 	font-size: 1.3rem;
 
@@ -156,6 +156,14 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
 
 	text-transform: uppercase;
 
+	letter-spacing: 1.5px;
+
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+
+	cursor: pointer;
+
+
+
 
 }
 
@@ -164,5 +172,5 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
 	position: absolute;
 	bottom: -10px;
 
-	right: -10px;
+	right: -30px;
 }
