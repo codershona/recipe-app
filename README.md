@@ -9,7 +9,7 @@
 	
 <img src="https://user-images.githubusercontent.com/57604500/121777279-88c15480-cb91-11eb-816b-d506091e7bed.png" width=656>
 <br />
-<h3 align="center">CHAT APP</h3>
+<h3 align="center">Recipe Box App</h3>
 </p>
 
 
